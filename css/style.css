@@ -307,13 +307,13 @@ blockquote:before {
     -moz-box-orient:vertical;
 }
 
-
-
 #main #overlay .left h2{
     color:white;
     font-size: 32px;
     text-align: center;
 }
+
+
 
 #main #overlay .left h3 a{
     color:#ff8400;
@@ -376,6 +376,11 @@ blockquote:before {
 
 #bottom h2{
     text-align: center;
+}
+
+#bottom h5{
+    text-align: center;
+    line-height:180%
 }
 
 #bottom .main-text {
