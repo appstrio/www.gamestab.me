@@ -381,6 +381,7 @@ blockquote:before {
 #bottom h5{
     text-align: center;
     line-height:180%;
+    color:grey;
 }
 
 #bottom .main-text {
