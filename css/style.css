@@ -380,21 +380,21 @@ blockquote:before {
 
 #bottom h5{
     text-align: center;
-    line-height:180%;
+    line-height:150%;
     color:grey;
 }
 
 #bottom .main-text {
     text-align: center;
-    height: 99px;
-    margin: 50px auto 50px;
+    height: 50px;
+    margin: 30px auto 30px;
 }
 
 #footer {
     position: relative;
     text-align: center;
     width: 100%;
-    padding: 18px 0 35px 0;
+    padding: 5px 0 0px 0;
     background: #fefefe;
     -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.02);
     -moz-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.02);
@@ -403,8 +403,8 @@ blockquote:before {
 }
 
 #footer .contact-us {
-    width: 400px;
-    margin: 10px auto;
+    width: 600px;
+    margin: 10px auto 5px;
     font-size: 14px;
     text-decoration: none;
     color: #1b9cff;
@@ -428,6 +428,7 @@ blockquote:before {
 }
 
 #footer .address{
+    margin-top: 5px;
     font-size:11px;
     color:#333;
 }
