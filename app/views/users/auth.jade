@@ -1,0 +1,12 @@
+extends ../layouts/default
+
+block content
+  .row
+    .col-md-offset-1.col-md-5
+
+    .col-md-6
+      if message && message.length
+        .fade.in.alert.alert-error
+          button.close(type="button", data-dismiss="alert") &times;
+          strong #{message}
+      block auth
